@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<section class="navbar">
+<section class="navbar" id="home">
     <div class="container">
         <div class="navbar-contents flex">
             <div class="nav-list-left">
@@ -54,7 +54,15 @@
 </section>
 
 <!-- Slider Showcase -->
-<section class="slider-showcase flex">
+<div class="main">
+<section class="slider-showcase">
+    <div class="slider-img" id="active">
+        <img src="./images/slider-flowers.jpg" alt="">
+        <div class="slider-title-content">
+            <h3 class="h3-titles slider-title">Blossom Like a Flower</h3>
+        <h5 class="h5-upppercase slider-category"> Selfcare</h5>
+        </div>
+    </div> 
     <div class="slider-img">
         <img src="./images/slider-book.jpg" alt="">
         <div class="slider-title-content">
@@ -62,7 +70,7 @@
         <h5 class="h5-upppercase slider-category">Leisure</h5>
         </div>
     </div>
-    <div class="slider-img hide">
+    <div class="slider-img ">
         <img src="./images/slider-venice.jpg" alt="">
         <div class="slider-title-content">
             <h3 class="h3-titles slider-title">Best ways to see Venice!</h3>
@@ -76,7 +84,7 @@
         <h5 class="h5-upppercase slider-category">Food</h5>
         </div>
     </div>
-    <div class="slider-img hide">
+    <div class="slider-img ">
         <img src="./images/slider-perfection.jpg" alt="">
         <div class="slider-title-content">
             <h3 class="h3-titles slider-title">There is no definition for perfection.</h3>
@@ -89,8 +97,21 @@
             <h3 class="h3-titles slider-title">Blossom Like a Flower</h3>
         <h5 class="h5-upppercase slider-category"> Selfcare</h5>
         </div>
+    </div> 
+    <div class="slider-img" id="firstClone">
+        <img src="./images/slider-book.jpg" alt="">
+        <div class="slider-title-content">
+            <h3 class="h3-titles slider-title">Lost in a book</h3>
+        <h5 class="h5-upppercase slider-category">Leisure</h5>
+        </div>
     </div>
+    
 </section>
+<div class="Btn">
+<button class="prev btn"><i class="fas fa-chevron-left"></i></button>
+<button class="next btn"><i class="fas fa-chevron-right"></i></button>
+</div>
+</div>
 
 <!-- Main Section -->
 <section class="main-section">
@@ -328,6 +349,13 @@
     <div class="container">
         <p>Designed by <span>easyblogthemes.com</span>. &copy; 2015 - 2018. All Rights Reserved.</p>
     </div>
+
+    <!-- back to top btn -->
+<button class="back-to-top">
+    <a href="#home"> <i class="fas fa-long-arrow-alt-up"></i></a>
+</button>
+
 </footer>
+<script src="./script.js"></script>
 </body>
 </html>
